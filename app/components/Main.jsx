@@ -11,7 +11,7 @@ var Main = (props) => {
          <div className='row'>
 
              <div className='column small-centered medium-6 large-4'>
-                <p> Main.jsx Rendered </p>
+         
                    {props.children}
                </div>
            </div>
