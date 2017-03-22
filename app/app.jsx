@@ -13,13 +13,13 @@ var Countdown = require('Countdown');
 
 // Load foundation
 
-require('style!css!foundation-sites/dist/css/foundation.min.css');
+$(document).foundation();
 
 // Load Custom Stylesheet
 
 require('style!css!sass!applicationStyles');
 
-$(document).foundation();
+
 
 ReactDOM.render(
           <Router history={hashHistory}>
